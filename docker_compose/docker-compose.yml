@@ -13,3 +13,7 @@ services:
     environment:
       POSTGRES_PASSWORD: budget
       POSTGRES_USER: budget
+  api:
+     build:
+        context: ../
+        dockerfile: Dockerfile
