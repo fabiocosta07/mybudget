@@ -1,4 +1,4 @@
-module budget.com/mybudget
+module github.com/fabiocosta07/mybudget
 
 go 1.15
 
